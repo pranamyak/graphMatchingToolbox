@@ -1,0 +1,8 @@
+model_config:
+  input_dim: 1
+  filters: [10, 10,10]
+  dropout: 0
+  is_sig: False
+  gnn_type: ChebNet # Options: GCN, GIN, GAT, GraphSAGE, ChebNet
+
+name: gotsim

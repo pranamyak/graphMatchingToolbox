@@ -1,0 +1,11 @@
+model_config:
+  input_dim: 1
+  gcn_size: [2,2,2]
+  conv_kernel_size: [10,6,4,2]
+  conv_pool_size: [3,3,2,2]
+  conv_out_channels: [2,4,6,8]
+  linear_size: [24, 16]
+  dropout: 0
+  gnn_type: 'ChebNet'
+
+name: graphsim

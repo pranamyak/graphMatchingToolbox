@@ -1,0 +1,8 @@
+model_config:
+  input_dim: 1
+  gnn_layer: GCN
+  filters: [10, 10,10]
+  bottle_neck_neurons: 10
+  dropout: 0
+
+name: egsc

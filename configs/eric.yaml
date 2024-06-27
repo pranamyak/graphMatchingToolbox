@@ -1,0 +1,33 @@
+# model_config:
+#   input_dim: 1
+#   gnn_filters: [10, 10, 10]
+#   dropout: 0.
+#   reduction: 2
+#   tensor_neurons: 10
+
+model_config:
+  input_dim: 1
+  gnn_filters: [10, 10, 10]
+  dropout: 0.0
+  reduction: 2
+  tensor_neurons: 10
+  gnn_encoder: GAT
+  deepsets: True
+  inner_mlp: True
+  inner_mlp_layers: 2
+  outer_mlp_layers: 2
+  deepsets_inner_act: relu
+  deepsets_outer_act: relu
+  fuse_type: cat
+  use_sim: True
+  NTN_layers: 1
+  pooling: add
+  use_ssl: True
+  cl_loss_norm: True
+  norm_type: sigmoid
+  output_comb: True
+  measure: JSD
+  use_ff: True
+  use_deepsets: True
+
+name: eric
